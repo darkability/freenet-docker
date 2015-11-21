@@ -1,0 +1,6 @@
+freenet:
+  extends:
+    file: docker-compose.yml
+    service: freenet
+  volumes:
+    - /dev/urandom:/dev/random
