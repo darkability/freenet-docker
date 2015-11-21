@@ -1,0 +1,9 @@
+freenet:
+  env_file: ${ENV_FILE}
+  net: host
+  image: darkability/freenet:${TAG}
+  ports:
+    - "8888:8888"
+    - "9481:9481"
+  volumes:
+    - "/dev/urandom:/dev/random"
