@@ -1,3 +1,3 @@
 #!/bin/bash
-make -f digitalocean.makefile kill
+make -f digitalocean.makefile rm
 rm -Rf ~/.docker/*

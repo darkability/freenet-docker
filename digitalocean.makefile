@@ -30,5 +30,8 @@ tunnel:
 kill:
 	docker-machine kill $(NAME)
 
+rm:
+	docker-machine rm $(NAME)
+
 stop:
 	docker-machine stop $(NAME)
